@@ -356,8 +356,7 @@ typedef uLong FAR uLongf;
    typedef Byte       *voidp;
 #endif
 
-#define HAVE_UNISTD_H // android-added
-#ifdef HAVE_UNISTD_H    /* may be set to #if 1 by ./configure */
+#if 1    /* was set to #if 1 by ./configure */
 #  define Z_HAVE_UNISTD_H
 #endif
 
