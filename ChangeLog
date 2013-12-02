@@ -1,3 +1,10 @@
+Release android-2.3.7_r1 -> android-2.3.7_r1-pl-001 - 2013-03-26
+
+Guillaume Tucker (3):
+      setup-Makefile
+      add .gitignore with depend.mk
+      gitignore: depend_*.mk
+
 
                 ChangeLog file for zlib
 
